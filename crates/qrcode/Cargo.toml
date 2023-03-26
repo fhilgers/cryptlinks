@@ -1,0 +1,8 @@
+[package]
+name = "cl-qrcode"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+fast_qr = { version = "0.8.4", features = ["image"] }
